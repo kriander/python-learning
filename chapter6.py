@@ -1,8 +1,12 @@
-age = 6
+import random
+age = random.random()
 print(age)
 
-if age == 8:
-    print('Kris')
-    age = 9
-    if age == 9: print('hack')
-    elif age == 10: print('yes')
+if age <= 1:
+    print("Kris")
+
+elif age == 3:
+    print("hack")
+
+elif age >= 4: 
+    print("yes")
