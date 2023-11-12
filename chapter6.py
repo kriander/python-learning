@@ -1,7 +1,7 @@
 age = 6
 print(age)
 
-if age == 6:
+if age == 8:
     print('Kris')
     age = 9
     if age == 9: print('hack')
