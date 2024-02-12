@@ -3,7 +3,7 @@ age = random.random()
 print(age)
 
 if age <= 1:
-    print("Kris")
+    print("Kris!")
 
 elif age == 3:
     print("hack")
